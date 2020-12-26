@@ -1,0 +1,8 @@
+---
+- name: CREATING A USER
+  hosts: all
+  tasks:
+    - name: USERMANUAL
+      user:
+        name: gama
+        state: present
