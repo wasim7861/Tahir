@@ -1,0 +1,8 @@
+---
+- name: ADDING HTTPD
+  hosts: all
+  tasks:
+    - name: ADDING SERVICE
+      yum:
+        name: httpd
+        state: present
