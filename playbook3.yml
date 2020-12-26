@@ -1,0 +1,10 @@
+---
+- name: ADDING SERVICE
+  hosts: all
+  tasks:
+    - name: ENABLING SERVICE
+      service:
+        name: httpd
+        enabled: yes
+
+    
